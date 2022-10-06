@@ -1,0 +1,17 @@
+.header {
+    background-color: $primary-background-color;
+    border-bottom: solid 1px #ececec;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

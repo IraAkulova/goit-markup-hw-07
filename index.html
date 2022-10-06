@@ -9,7 +9,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"/>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./dist/css/main.min.css" />  
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
   </head>
   <body>
     <header class="header">
@@ -441,7 +442,7 @@
       </div>
     </footer>
 
-    <div class="backdrop is-hidden" data-modal data-modal-close>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close" data-modal-close>
           <svg class="icon-close">
@@ -476,7 +477,7 @@
           </div>
           <div class="request__field">
             <label class="request-field__name" for="comment">Коментар</label>
-            <textarea name="comment"
+            <textarea class="request-field__comment" name="comment"
               id="comment"
               placeholder="Введіть текст">
             </textarea>

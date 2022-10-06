@@ -1,0 +1,48 @@
+@import './utiles/vars';
+
+body {
+    color: $primary-text-color;
+    background-color: $primary-background-color;
+    font-family: $primary-font;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@import './components/header';
+@import './components/header-nav';
+@import './components/header-contacts';
+@import './components/hero';
+
+.section-title {
+    margin-bottom: 50px;
+
+    color: $title-text-color;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+@import './components/features';
+@import './utiles/visually-hidden';
+@import './components/our-works';
+@import './components/team';
+@import './components/clients';
+@import './components/footer';
+@import './components/backdrop';
+@import './components/modal';
+@import './components/filters';
+@import './components/portfolio';
