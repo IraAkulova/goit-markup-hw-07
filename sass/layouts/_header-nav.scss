@@ -4,24 +4,6 @@
     justify-content: space-between;
 }
 
-.header-nav__logo {
-    display: inline-block;
-    margin-right: 93px;
-    padding: 24px 0px 25px 0px;
-
-    color: $logo-color;
-    text-decoration: none;
-    font-family: $logo-font;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-}
-
-span {
-    color: $accent-background-color;
-}
 
 .header-nav__list {
     gap: 50px;

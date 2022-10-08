@@ -20,29 +20,23 @@ ul {
     list-style: none;
 }
 
-@import './components/header';
-@import './components/header-nav';
-@import './components/header-contacts';
-@import './components/hero';
-
-.section-title {
-    margin-bottom: 50px;
-
-    color: $title-text-color;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-
-@import './components/features';
+@import './components/logo';
+@import './layouts/header';
+@import './layouts/header-nav';
+@import './layouts/header-contacts';
+@import './layouts/hero';
+@import './components/section-title';
+@import './layouts/features';
 @import './utiles/visually-hidden';
-@import './components/our-works';
-@import './components/team';
-@import './components/clients';
-@import './components/footer';
-@import './components/backdrop';
-@import './components/modal';
-@import './components/filters';
-@import './components/portfolio';
+@import './layouts/our-works';
+@import './layouts/team';
+@import './layouts/clients';
+@import './layouts/footer';
+@import './components/social-networks';
+@import './layouts/backdrop';
+@import './layouts/modal';
+@import './layouts/filters';
+@import './layouts/portfolio';
+@import './components/project__title';
+@import './components/project__type';
+
