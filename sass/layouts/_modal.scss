@@ -178,11 +178,11 @@
 }
 
 .icon-check {
-    background-image: url(/images/Vector.svg);
+    background-image: url(../images/Vector.svg);
 }
 
 .checkbox:checked+.icon-check {
-    background-image: url("/images/icon-check.svg");
+    background-image: url(../images/icon-check.svg);
     color: $primary-background-color;
     background-color: $accent-background-color;
     background-size: contain;

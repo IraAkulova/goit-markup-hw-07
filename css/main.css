@@ -148,7 +148,7 @@ ul {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero.jpg);
+  background-image: url(../images/hero.jpg), linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -746,11 +746,11 @@ ul {
 }
 
 .icon-check {
-  background-image: url(/images/Vector.svg);
+  background-image: url(../images/Vector.svg);
 }
 
 .checkbox:checked + .icon-check {
-  background-image: url("/images/icon-check.svg");
+  background-image: url(../images/icon-check.svg);
   color: #ffffff;
   background-color: #2196f3;
   background-size: contain;
