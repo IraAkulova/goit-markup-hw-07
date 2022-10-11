@@ -765,7 +765,7 @@ ul {
   left: 0px;
   width: 16px;
   height: 15px;
-  background-image: url(/images/Vector.svg);
+  background-image: url(../images/Vector.svg);
 }
 
 .send {
